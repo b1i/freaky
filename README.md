@@ -13,7 +13,7 @@ const freaky = require('freaky')
 [freaky]: https://www.npmjs.com/package/freaky
 ### Handling URL
 
-Checking the URL status and redirect the client to another URL.
+Checking the URL status and redirect the client to another URL if necessary.
 
 ```rust
 freaky(fromUrl,toURL)
