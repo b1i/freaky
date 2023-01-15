@@ -11,7 +11,7 @@ npm i freaky
 const freaky = require('freaky')
 ```
 [freaky]: https://www.npmjs.com/package/freaky
-### Handling URL redirect
+### Handling URL
 
 Checking the URL status and redirect the client to another URL.
 
