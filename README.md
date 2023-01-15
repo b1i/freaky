@@ -16,7 +16,7 @@ const freaky = require('freaky')
 Checking the URL status and redirect the client to another URL if necessary.
 
 ```rust
-freaky(fromUrl,toURL)
+freaky(a,b)
 ```
 
 Example:
@@ -24,7 +24,7 @@ Example:
 check.addEventListener("click", () => {
   freaky(
     "https://status404.com",
-    "https://anotherurl.com"
+    "https://status200.com"
   )
 })
 ```
