@@ -1,17 +1,18 @@
-function freaky(from, to) {
+function freaky(a, b) {
   function redirect(url, callback) {
     fetch(url, { method: "HEAD" }).then(function (status) {
       callback(status.ok)
     })
   }
 
-  redirect(from, function (exists) {
+  redirect(a, function (exists) {
     if (exists) {
-      return
+      window.location.replace(a)
     } else {
-      window.location.replace(to)
+      window.location.replace(b)
     }
   })
 }
 
 module.exports = freaky
+
