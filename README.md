@@ -1,5 +1,7 @@
 # freaky
 
+URL redirection 
+
 ### Basic setup
 
 Install [freaky] through npm or yarn
