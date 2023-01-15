@@ -10,7 +10,7 @@ npm i freaky
 ```rust
 const freaky = require('freaky')
 ```
-[freaky]: https://www.npmjs.com/package/juggling
+[freaky]: https://www.npmjs.com/package/freaky
 ### Handling URL redirect
 
 Checking the URL status and redirect the client to another URL.
