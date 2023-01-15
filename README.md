@@ -1,7 +1,7 @@
 # freaky
 ### basic setup
 
-Install feaky through npm or yarn
+Install freaky through npm or yarn
 
 ```rust
 npm i freaky
