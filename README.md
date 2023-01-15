@@ -1,8 +1,8 @@
 # freaky
 
-### basic setup
+### Basic setup
 
-Install freaky through npm or yarn
+Install [freaky] through npm or yarn
 
 ```rust
 npm i freaky
@@ -10,7 +10,7 @@ npm i freaky
 ```rust
 const freaky = require('freaky')
 ```
-
+[freaky]: https://www.npmjs.com/package/juggling
 ### Handling URL redirect
 
 Checking the URL status and redirect the client to another URL.
