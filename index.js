@@ -14,5 +14,5 @@ function freaky(a, b) {
   })
 }
 
-module.exports = freaky
+
 
